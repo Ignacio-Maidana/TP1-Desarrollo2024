@@ -203,7 +203,7 @@ input:checked + .slider:before {
     font-weight: bold;
 }
 
-.sobreMi button {
+.sobreMi a{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid var(--color-negro);
@@ -215,9 +215,10 @@ input:checked + .slider:before {
     color: var(--color-negro);
     position: relative;
     z-index: 10;
+    text-decoration: none;
 }
 
-.sobreMi button .overlay{
+.sobreMi a .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -228,7 +229,7 @@ input:checked + .slider:before {
     transition: 1s;
 }
 
-.sobreMi button:hover .overlay {
+.sobreMi a:hover .overlay {
     width: 100%;
 }
 

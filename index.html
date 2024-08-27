@@ -52,10 +52,10 @@
             <p>
                 Hola, <span>mi nombre es Ignacio Maidana</span> y actualmente estoy cursando el tercer año de la carrera de Ingeniería en Sistemas de Información en la UTN Facultad Regional San Francisco. Desde que comencé mis estudios, he descubierto una verdadera pasión por el desarrollo, lo que me ha motivado a seguir aprendiendo y perfeccionando mis habilidades en este campo. Durante mi formación, he tenido la oportunidad de explorar diversas áreas del desarrollo de software, y cada nuevo desafío me impulsa a profundizar más en este fascinante mundo. Mi objetivo es convertirme en un profesional que pueda contribuir al avance tecnológico, creando soluciones innovadoras y eficientes.
             </p>
-            <button>
+            <a href="doc/CV.docx" download="CV-MaidanaIgnacio.docx">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
-            </button>
+            </a>
         </div>
     </section>
 
@@ -64,16 +64,18 @@
             <h2>Contacto</h2>
             <div class="fila">
                 <div class="col">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
-                    <input type="text" placeholder="Número de Teléfono">
-                    <input type="text" placeholder="Direccion de Email">
-                    <input type="text" placeholder="Asunto">
-                    <textarea placeholder="Descripción" cols="10" rows="10"></textarea>
-                    <button>
-                        Enviar<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form action="https://script.google.com/macros/s/AKfycbxHy4H0Exm6M8rzt3mGX0p9w0_8TFtYvsJ-oDPrgaPDBj9UUM70y4553D4dakV9XQg_/exec" method="post">
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="text" name="apellido" placeholder="Apellido">
+                        <input type="text" name="numero" placeholder="Número de Teléfono">
+                        <input type="text" name="email" placeholder="Direccion de Email">
+                        <input type="text" name="asunto" placeholder="Asunto">
+                        <textarea name="descripcion" placeholder="Descripción" cols="10" rows="10"></textarea>
+                        <button type="submit">
+                            Enviar<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
