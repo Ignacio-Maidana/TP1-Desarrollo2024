@@ -6,6 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    transition: .2s;
 }
 :root {
     --color-principal: #257e1a;
