@@ -20,9 +20,14 @@
                     <li><a href="proyectos.html">Proyectos</a></li>
                 </ul>
             </nav>
-            <div class="lineasAux">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <label id="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div> 
         </header>
     </div>
 
@@ -54,6 +59,16 @@
         </div>
     </section>
 
-    
+    <script>
+    const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
+        function cambiaTema(ev){
+            if(ev.target.checked){
+                document.documentElement.setAttribute('tema', 'light');
+            } else {
+                document.documentElement.setAttribute('tema', 'dark');
+            }
+        }
+        colorSwitch.addEventListener('change', cambiaTema)
+        </script>
 </body>
 </html>
