@@ -18,6 +18,7 @@
                     <li><a href="habilidades.html">Habilidades</a></li>
                     <li><a href="experiencia.html">Experiencia</a></li>
                     <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <div class="row">
@@ -41,7 +42,6 @@
             <div class="redes">
                 <a href="https://www.linkedin.com/in/ignacio-maidana-3a2b40265/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/Ignacio-Maidana" target="_blank"><i class="fa-brands fa-github"></i></a>
-                
             </div>
         </div>
     </section>
@@ -59,6 +59,39 @@
         </div>
     </section>
 
+    <section class="contacto" id="contacto">
+        <div class="contenedorSeccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellido">
+                    <input type="text" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Direccion de Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea placeholder="Descripción" cols="10" rows="10"></textarea>
+                    <button>
+                        Enviar<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/ignacio-maidana-3a2b40265/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Ignacio-Maidana" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <div class="gmail">
+                <i class="fa-brands fa-google"></i><span>ignacio.maidana99@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+
     <script>
     const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
         function cambiaTema(ev){
@@ -69,6 +102,6 @@
             }
         }
         colorSwitch.addEventListener('change', cambiaTema)
-        </script>
+    </script>
 </body>
 </html>
