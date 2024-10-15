@@ -318,7 +318,7 @@ input:checked + .slider:before {
     animation: 2s javascript forwards;
 }@keyframes javascript {
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .python {
@@ -503,7 +503,6 @@ input:checked + .slider:before {
 
 .proyectos .contenedorSeccion {
     max-width: 1200px;
-    height: 629px;
     margin: auto;
 }
 
@@ -522,7 +521,7 @@ input:checked + .slider:before {
 
 .proyectos .galeria .proyecto{
     position: relative;
-    max-width: 340px;
+    max-width: 550px;
     height: fit-content;
     margin: 10px;
     cursor: pointer;
